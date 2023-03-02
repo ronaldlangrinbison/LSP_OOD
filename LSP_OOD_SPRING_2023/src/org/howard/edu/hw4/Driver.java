@@ -22,8 +22,8 @@ public class Driver {
 	        set2.add(8);
 	        set2.add(9);
 	        
-	        originalset1.union(set1);;
-	        originalset2.union(set2);;
+	        originalset1.union(set1);
+	        originalset2.union(set2);
 	        
 	        System.out.println("");
 	        System.out.println("===============================================================================");
