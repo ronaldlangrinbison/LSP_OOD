@@ -19,6 +19,7 @@ public class SongsDatabaseTest {
         assertTrue(db.getSongs("Rap").contains("Gin and Juice"));
     }
 
+    
     @Test
     public void testGetSongs() {
         SongsDatabase db = new SongsDatabase();

@@ -15,10 +15,12 @@ public class SongsDatabase {
         map.get(genre).add(songTitle);
     }
 
+    
     public Set<String> getSongs(String genre) {
         return map.getOrDefault(genre, new HashSet<String>());
     }
 
+    
     public String getGenreOfSong(String songTitle) {
         for (Map.Entry<String, HashSet<String>> entry : map.entrySet()) {
             if (entry.getValue().contains(songTitle)) {
